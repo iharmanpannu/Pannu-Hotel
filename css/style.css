@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
   font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #0e83a0;
+  color: #e67c7c;
   font-weight: 600;
 }
 
@@ -134,7 +134,8 @@ header .fullheight .hgroup p img {
 
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+
   align-content: center;
   padding: 0.8em 0;
   background-color: #e67c7c;
@@ -145,7 +146,33 @@ header .fullheight .hgroup p img {
 }
 .navbar a {
   text-decoration: none;
+  font-size: 1.5em;
 }
+
+.brand span {
+  background: #ffffff;
+  color: #e67c7c;
+  padding: 5px 1em;
+  border-radius: 2px;
+  font-weight: 700;
+}
+.brand a {
+  font-weight: 500;
+}
+.info {
+  padding-left: 1em;
+}
+.info a {
+  transition: color 300ms ease-in-out;
+}
+.info a:hover {
+  color: #313033;
+}
+
+.navbar ul {
+  display: flex;
+}
+/* navbar style ends here  */
 
 #welcome {
   background-size: 100%;
@@ -300,8 +327,22 @@ footer #socialmedia ul li {
 footer #socialmedia a {
   font-size: 1.3em;
   padding: 0 5px;
-  transition: color 300ms linear;
+  transition: color 300ms ease-in-out;
 }
 footer #socialmedia a:hover {
+  color: #e67c7c;
+}
+footer #name {
+  text-align: center;
+  margin-top: 1em;
+}
+footer #name h6 {
+  font-size: 1em;
+}
+footer #name a {
+  text-decoration: none;
+  transition: color 300ms ease-in-out;
+}
+footer #name a:hover {
   color: #e67c7c;
 }
