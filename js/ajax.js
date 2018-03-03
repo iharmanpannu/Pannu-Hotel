@@ -2,7 +2,7 @@
 
 const url =
   "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=seattle,usa";
-const apiKey = "05e62f86576a85bc20cce0e46674216f"; // Api key
+const apiKey = "Get your API key from https://openweathermap.org"; // Api key
 let httpRequest;
 
 fetch(`${url}&appid=${apiKey}`)
