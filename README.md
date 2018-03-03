@@ -6,4 +6,4 @@
 
 * [live Demo](https://pannuhotel.surge.sh)
 
-![image](https://github.com/iharmanpannu/Project5-JS/blob/master/images/main.jpg)
+![giphy](https://media.giphy.com/media/45bEo4fXIEpl1s8WMm/giphy.gif)
